@@ -1,0 +1,64 @@
+/* Reset default browser styles */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+/* Page font */
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  min-height:100vh;
+}
+
+/* Smooth text rendering */
+body{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Card styling upgrade */
+.card{
+  border-radius:20px !important;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.85) !important;
+}
+
+/* Card hover effect */
+.card:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+/* Input styling */
+input{
+  border-radius:10px !important;
+  padding:10px !important;
+  text-align:center;
+}
+
+/* Button improvements */
+button{
+  border-radius:10px !important;
+  transition: all 0.2s ease;
+}
+
+/* Button hover */
+button:hover{
+  transform: scale(1.05);
+}
+
+/* Weather icon smooth animation */
+img{
+  transition: transform 0.3s ease;
+}
+
+img:hover{
+  transform: scale(1.1);
+}
+
+/* Temperature highlight */
+h2,h3{
+  letter-spacing:1px;
+}
