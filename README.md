@@ -4,7 +4,13 @@ A simple and responsive Weather Application built using **React.js** and **OpenW
 Users can search for any city and get real-time weather information such as temperature and weather condition.
 
 ---
+## ## 🌐 Live Demo
 
+Check out the deployed application here:
+
+👉 **https://weather-app-iota-inky-42.vercel.app**
+
+---
 ## 🚀 Features
 
 * Search weather by city name
